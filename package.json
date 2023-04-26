@@ -1,0 +1,26 @@
+{
+  "name": "discord_typescript_bot_template",
+  "version": "1.0.0",
+  "description": "Discord V14+ bot",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon --config nodemon.json src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rikveet/Discord-Template.git"
+  },
+  "keywords": [],
+  "author": "Rikveet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rikveet/Discord-Template/issues"
+  },
+  "homepage": "https://github.com/Rikveet/Discord-Template#readme",
+  "dependencies": {
+    "discord.js": "^14.9.0",
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.22"
+  }
+}
