@@ -1,12 +1,9 @@
-# Discord V14+ bot Template
+# Brock_CSC_Course_Bot
 
-### HOW TO RUN
+Discord V14+ bot
 
-- Run the following commmand in terminal `npm install`
-- Create a .env file in root directory.
-- Add a `TOKEN="your discord app token"` to the env.
-- If you are using vscode, try the f5 key to run the bot in debug mode.
-
-### HOW TO ADD NEW COMMANDS
-
-- All the commands go inside ./commands/[your category name]. Make sure that your commands follow this pattern as command files in the root folder will not be loaded.
+- Capable of roles section using the discord latest gui features.
+- Syncing server channels rules with thier categories.
+- Scraping the a degree page form brock undergraduate calender (2022 computer science calender) creating new channels(if not already existing) for each course and adding/updating channel description with course description and adding the role to the server based on the course code(if not already existing).
+- Locking all text channels in the event of server spam(redundant due to discord's own inbuild bot).
+- Creating new channels, with or without category.
